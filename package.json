@@ -1,0 +1,25 @@
+{
+  "name": "test_xhcli",
+  "version": "1.0.0",
+  "description": "a test jsj program",
+  "main": "index.js",
+  "bin": {
+    "xhcli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "start": "xhcli build"
+  },
+  "author": "huihui_yin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-table": "^0.3.6",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^7.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
